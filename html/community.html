@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cộng Đồng</title>
+  <!-- Đường dẫn CSS cần chính xác -->
+  <link rel="stylesheet" href="/css/community.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="taskbar">
+    <div class="taskbar-left">
+      <!-- Đảm bảo link Trang Chủ đúng -->
+      <a href="/index.html">Trang Chủ</a>
+    </div>
+
+    <!-- Thanh tìm kiếm Google -->
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Tìm kiếm trên Google..." />
+      <button id="search-button" title="Tìm kiếm"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="taskbar-right">
+      <!-- Đảm bảo link Login đúng -->
+      <a href="/html/login.html" id="login-btn">LOGIN</a>
+    </div>
+  </div>
+
+  <!-- KHUNG QUẢNG CÁO ĐÃ BỊ XÓA -->
+
+  <!-- Container chứa tin tức -->
+  <div class="container">
+    <div class="featured-news" id="featured-news">
+      <!-- Tin nổi bật sẽ được thêm bằng JS -->
+    </div>
+    <div class="latest-news" id="latest-news">
+      <!-- Tin mới nhất sẽ được thêm bằng JS -->
+    </div>
+  </div>
+
+  <!-- Đường dẫn JavaScript cần chính xác -->
+  <script src="/js/community.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogGames</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html"><img src="logo.png" alt="BlogGames Logo"></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class="dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">THỂ LOẠI ▾</button>
+                    <div class="dropdown-content games-dropdown">
+                        <a href="#" class="game-link" data-game="sinh-ton">Sinh tồn</a>
+                        <a href="#" class="game-link" data-game="hanh-dong">Hành động</a>
+                        <a href="#" class="game-link" data-game="nhap-vai">Nhập vai</a>
+                        <a href="#" class="game-link" data-game="FPS-TPS">FPS-TPS</a>
+                        <a href="#" class="game-link" data-game="chien-luoc">Chiến lược</a>
+                        <a href="#" class="game-link" data-game="sports">Sports</a>
+                        <a href="#" class="game-link" data-game="battle-royal">Battle Royal</a>
+                    </div>
+                </li>
+                <li><a href="/html/community.html">COMMUNITIES</a></li>
+                <li><a href="#support-section">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+        <div class="search-account">
+            <a href="/html/login.html" id="login-btn">LOGIN</a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="game-details" style="display: none;">
+            <div id="game-video"></div>
+            <div id="game-info">
+                <div id="game-link"></div>
+                <div id="game-description"></div>
+            </div>
+        </section>
+        <nav id="game-thumbnails">
+            <img src="/images/minecraft-background-cfljc4haleghnajo.jpg" alt="sinh tồn" data-game="sinh-ton">
+            <img src="/images/8672297_Cover-ACS.webp" alt="hành động" data-game="hanh-dong">
+            <img src="/images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg" alt="nhập vai" data-game="nhap-vai">
+            <img src="/images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg" alt="FPS-TPS" data-game="FPS-TPS">
+            <img src="/images/arknights-4k-waggbbwkw7f8w8dg.jpg" alt="chiến lược" data-game="chien-luoc">
+            <img src="/images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg" alt="sports" data-game="sports">
+            <img src="/images/pubg-mobile-game-image-4.jpg" alt="battle royal" data-game="battle-royal">
+        </nav>
+    </main>
+
+    <section id="explore-games">
+        <h2>Game sắp ra mắt</h2>
+        <div class="carousel-container">
+            <div class="game-slider">
+                <div class="game-track">
+                    <div class="game-card">
+                        <a href="https://www.marvel.com/games/marvels-spider-man-2">
+                            <img src="/images/game1.jpg" alt="Marvel's Spiderman 2">
+                            <h3>Marvel's Spiderman 2</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="https://www.ubisoft.com/en-sg/game/assassins-creed/shadows">
+                            <img src="/images/game2.jpg" alt="Assassin's Creed Shadows">
+                            <h3>Assassin's Creed Shadows</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="https://atomfall.com/fr">
+                            <img src="/images/game3.jpg" alt="Atomfall">
+                            <h3>Atomfall</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="https://www.kojimaproductions.jp/en/death-stranding-2">
+                            <img src="/images/game4.jpg" alt="Death Stranding 2">
+                            <h3>Death Stranding 2</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="https://www.rockstargames.com/VI">
+                            <img src="/images/game5.jpg" alt="Grand Theft Auto 6">
+                            <h3>Grand Theft Auto 6</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="https://www.playstation.com/en-vn/games/little-nightmares-3/">
+                            <img src="/images/game6.jpg" alt="Little Nightmare 3">
+                            <h3>Little Nightmare 3</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="support-section">
+        <div class="support-wrapper">
+            <div class="support-column">
+                <h3>Thành viên thực hiện dự án</h3>
+                <ul>
+                    <li>Hoàng Anh Dũng <a href="mailto:23050053@student.bdu.edu.vn">23050053</a></li>
+                    <li>Nguyễn Đặng Đức Duy <a href="mailto:23050070@student.bdu.edu.vn">23050070</a></li>
+                    <li>Nguyễn Thị Hồng Nhung <a href="mailto:23050075@student.bdu.edu.vn">23050075</a></li>
+                    <li>Nguyễn Tài Nhân <a href="mailto:23050062@student.bdu.edu.vn">23050062</a></li>
+                </ul>
+            </div>
+            <div class="support-column">
+                <h3>Liên hệ chung</h3>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:bloggames.support@gmail.com">bloggames.support@gmail.com</a></p>
+                <p><i class="fab fa-facebook"></i> <a href="https://facebook.com/bloggames" target="_blank">facebook.com/bloggames</a></p>
+                <p><i class="fab fa-youtube"></i> <a href="https://youtube.com/@bloggames" target="_blank">youtube.com/@bloggames</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 BlogGames. All rights reserved.
+    </footer>
+
+    <div id="popup-ad" class="popup-ad">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closeAd()">x</span>
+            <h3>🎮 Game HOT</h3>
+            <img src="/images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg" alt="GAME HOT">
+            <p>Tham gia chiến trường nghẹt thở cùng bạn bè – đồ họa cực đỉnh!</p>
+            <a href="https://valorant.vnggames.com/vi-vn/download/" class="ad-button">Tải ngay</a>
+            <label>
+                <input type="checkbox" id="dont-show-again">
+                Không hiển thị lại
+            </label>
+        </div>
+    </div>
+
+    <button id="back-to-top" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
