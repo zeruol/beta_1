@@ -149,13 +149,13 @@ a {
     display: block;
 }
 
-.games-dropdown a[data-game="sinh-ton"]::before { background-image: url("/images/minecraft-background-cfljc4haleghnajo.jpg"); }
-.games-dropdown a[data-game="hanh-dong"]::before { background-image: url("/images/8672297_Cover-ACS.webp"); }
-.games-dropdown a[data-game="nhap-vai"]::before { background-image: url("/images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg"); }
-.games-dropdown a[data-game="FPS-TPS"]::before { background-image: url("/images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg"); }
-.games-dropdown a[data-game="chien-luoc"]::before { background-image: url("/images/arknights-4k-waggbbwkw7f8w8dg.jpg"); }
-.games-dropdown a[data-game="sports"]::before { background-image: url("/images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg"); }
-.games-dropdown a[data-game="battle-royal"]::before { background-image: url("/images/pubg-mobile-game-image-4.jpg"); }
+.games-dropdown a[data-game="sinh-ton"]::before { background-image: url("./images/minecraft-background-cfljc4haleghnajo.jpg"); }
+.games-dropdown a[data-game="hanh-dong"]::before { background-image: url("./images/8672297_Cover-ACS.webp"); }
+.games-dropdown a[data-game="nhap-vai"]::before { background-image: url("./images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg"); }
+.games-dropdown a[data-game="FPS-TPS"]::before { background-image: url("./images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg"); }
+.games-dropdown a[data-game="chien-luoc"]::before { background-image: url("./images/arknights-4k-waggbbwkw7f8w8dg.jpg"); }
+.games-dropdown a[data-game="sports"]::before { background-image: url("./images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg"); }
+.games-dropdown a[data-game="battle-royal"]::before { background-image: url("./images/pubg-mobile-game-image-4.jpg"); }
 
 .dropdown-content {
     max-height: 200px;
