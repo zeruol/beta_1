@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "https://www.youtube.com/watch?v=MmB9b5njVbA",
             link: "https://www.minecraft.net/en-us",
             description: "Minecraft là một trò chơi sandbox nổi tiếng...",
-            backgroundImage: "../images/minecraft-background-cfljc4haleghnajo.jpg"
+            backgroundImage: "./images/minecraft-background-cfljc4haleghnajo.jpg"
         },
         "hanh-dong": {
             name: "Assassin's Creed Shadows",
