@@ -34,49 +34,49 @@ document.addEventListener("DOMContentLoaded", () => {
             video: "https://www.youtube.com/watch?v=MmB9b5njVbA",
             link: "https://www.minecraft.net/en-us",
             description: "Minecraft là một trò chơi sandbox nổi tiếng...",
-            backgroundImage: "/images/minecraft-background-cfljc4haleghnajo.jpg"
+            backgroundImage: "../images/minecraft-background-cfljc4haleghnajo.jpg"
         },
         "hanh-dong": {
             name: "Assassin's Creed Shadows",
             video: "https://www.youtube.com/watch?v=vovkzbtYBC8",
             link: "https://www.ubisoft.com/en-sg/",
             description: "Assassin's Creed Shadows là phần mới...",
-            backgroundImage: "/images/8672297_Cover-ACS.webp"
+            backgroundImage: "./images/8672297_Cover-ACS.webp"
         },
         "nhap-vai": {
             name: "Final Fantasy XIV",
             video: "https://youtu.be/1bzWvyncQh8",
             link: "https://eu.finalfantasyxiv.com/",
             description: "Final Fantasy là một loạt trò chơi nhập vai nổi tiếng...",
-            backgroundImage: "/images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg"
+            backgroundImage: "./images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg"
         },
         "FPS-TPS": {
             name: "Valorant",
             video: "https://www.youtube.com/watch?v=OHzUoFKPUB0",
             link: "https://valorant.vnggames.com/vi-vn/",
             description: "Valorant là một trò chơi bắn súng góc nhìn thứ nhất...",
-            backgroundImage: "/images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg"
+            backgroundImage: "./images/valorant-game-ban-sung-chien-thuat-dau-tien-cua-riot-23-09-2020-3.jpg"
         },
         "chien-luoc": {
             name: "Arknights",
             video: "https://www.youtube.com/watch?v=--xJQ5oNcCA",
             link: "https://arknights.global/",
             description: "Arknights là một tựa game chiến thuật thủ tháp...",
-            backgroundImage: "/images/arknights-4k-waggbbwkw7f8w8dg.jpg"
+            backgroundImage: "./images/arknights-4k-waggbbwkw7f8w8dg.jpg"
         },
         "sports": {
             name: "Forza Horizon",
             video: "https://www.youtube.com/watch?v=5xy4n73WOMM",
             link: "https://forza.net/horizon",
             description: "Forza Horizon là một trò chơi đua xe thế giới mở nổi tiếng...",
-            backgroundImage: "/images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg"
+            backgroundImage: "./images/e3-2016-forza-horizon-3-le-hoi-than-gio-gioi-thieu-game-01.jpg"
         },
         "battle-royal": {
             name: "PUBG",
             video: "https://youtu.be/h0s5X6pyhd0",
             link: "https://www.pubg.com/vi/main",
             description: "PUBG là một trò chơi bắn súng sinh tồn...",
-            backgroundImage: "/images/pubg-mobile-game-image-4.jpg"
+            backgroundImage: "./images/pubg-mobile-game-image-4.jpg"
         }
     };
 
